@@ -1,6 +1,13 @@
 body {
     font-family: 'Nunito Sans', sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
     margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
 }
 
 .header {
@@ -14,17 +21,15 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 83px;
 }
 
 .logo {
     color: #E3B873;
-    margin-right: 96px;
 }
 
 .main-menu {
-    margin-right: 70px;
 }
 
 .main-menu__ul {
@@ -56,11 +61,68 @@ body {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
-    padding: 13px 33px;
     border: 0;
-    color: white;
     text-transform: uppercase;
     font-style: italic;
     font-size: 11px;
-    margin-left: 45px;
+    color: white;
+}
+
+.main-menu__button {
+    width: 161px;
+    height: 37px;
+}
+
+.main-container__title {
+    background-image: url(../images/main.jpg);
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+    z-index: 0;
+}
+
+.title-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.main-container__title__text {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container__title__text h1 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    max-width: 560px;
+}
+
+.main-container__title__text p {
+    font-size: 22px;
+    line-height: 36px;
+    max-width: 510px;
+}
+
+.main-container__title__text .button {
+    height: 51px;
+    width: 207px;
+}
+
+.main-container__button-app {
+    background: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    border: 1px solid white;
+    margin-left: 20px;
 }
