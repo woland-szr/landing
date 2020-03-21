@@ -29,9 +29,6 @@ body * {
     color: #E3B873;
 }
 
-.main-menu {
-}
-
 .main-menu__ul {
     display: flex;
     list-style: none;
