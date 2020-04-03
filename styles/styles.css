@@ -296,6 +296,9 @@ h1, h2, h3 {
 }
 
 @media only screen and (max-width : 1300px) {
+    .main__block-one__slider {
+        display: block;
+    }
     .main__block-one__slider__text {
         margin: 0 auto;
         align-content: center;
@@ -431,9 +434,16 @@ h1, h2, h3 {
 
 @media only screen and (max-width : 1300px) {
     .main__block-one__slider__img__mob {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin: 0 auto;
         z-index: 0;
+    }
+    .main__block-one__slider__img_img_mob {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;   
     }
 }
 
@@ -535,7 +545,7 @@ h1, h2, h3 {
     }
     .main__block-two__content__img_overlay {
         position: absolute;
-        width: 345px;
+        width: 100%;
         height: 184px;
         background-color: rgba(0, 0, 0, 0.7);
     }
