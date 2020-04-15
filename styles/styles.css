@@ -527,8 +527,11 @@ h3 {
     font-size: 18px;
     line-height: 25px;
     font-style: normal;
-    display: grid;
-    align-content: center;
+    display: flex;
+}
+
+.main__block-three__content__img__button span {
+    margin: auto;
 }
 
 .main__block-three__content__part-two {
